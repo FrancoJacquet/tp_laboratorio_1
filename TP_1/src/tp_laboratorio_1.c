@@ -67,7 +67,7 @@ int main(void)
 				break;
 			case 6:
 				//salir
-				printf("El programa finalizó...");
+				printf("El programa finalizo...\n");
 				system("PAUSE");
 				seguir='n';
 				break;
