@@ -1,10 +1,7 @@
 /*
  ============================================================================
- Name        : tp_laboratorio_1.c
+ Name        : tp_1.c
  Author      : Franco Jacquet
- Version     :
- Copyright   : 
- Description : Hello World in C, Ansi-style
  ============================================================================
  */
 
@@ -36,10 +33,12 @@ int main(void)
 		{
 			case 1:
 				//se piden los kilometros
+				validar=0;
 				kilometrosIngresados=PedirDatos("Ingrese kilometros:","Ingrese kilometros validos:");
 				break;
 			case 2:
 				//se piden los precios para Aerolineas y Latam
+				validar=0;
 				precioAerolineas=PedirDatos("Ingrese precio para Aerolineas:","Ingrese un precio valido para Aerolineas:");
 				precioLatam=PedirDatos("Ingrese precio para Latam:", "Ingrese un precio valido para Latam:");
 				break;
